@@ -1,0 +1,26 @@
+[[[ To any NSA and FBI agents reading my email: please consider    ]]]
+[[[ whether defending the US Constitution against all enemies,     ]]]
+[[[ foreign or domestic, requires you to follow Snowden's example. ]]]
+
+  > > How can I get this unwedged?
+
+  > In the future if your local commits are not too complex, you can use
+  > 'git pull --rebase' which will avert the implicit merge in 'git
+  > pull'. 
+
+What OTHER effects does it have?  I don't dare try it unless I know
+it won't screw me some other way.
+
+	   Then you can push without problem.
+
+What does "pushing" mean?
+I assumed that C-x v v was installing my changes.
+
+-- 
+Dr Richard Stallman
+President, Free Software Foundation
+51 Franklin St
+Boston MA 02110
+USA
+www.fsf.org  www.gnu.org
+Skype: No way! See stallman.org/skype.html.

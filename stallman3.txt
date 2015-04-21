@@ -1,0 +1,49 @@
+-- Bringing us back to the mailing list.
+
+On 03/22, Richard Stallman wrote:
+
+> What OTHER effects does it have?  I don't dare try it unless I know
+> it won't screw me some other way.
+
+As far as I know, none. 'git pull' is basically an alias for 'git
+fetch; git merge'. Many git users never use pull and always fetch
+separately for more control.
+
+The reason it puts you into an intermediate merge state is in order to
+not screw you. If you run 'git status' you can see the current state of
+your local branch.
+
+> What does "pushing" mean?
+
+Pushing merges your local branch with the remote branch (Savannah). 'svn
+commit' for git would be 'git commit && git push'.
+
+Take a look at this page[1] if you know svn, it lists the analogous
+commands.
+
+> I assumed that C-x v v was installing my changes.
+
+From info: 
+
+  ...VC supports many common Git operations, but others, such as
+  repository syncing, must be done from the command line.
+
+I don't use vc.el, but from some quick testing it appears it only
+commits. You have to push separately.
+
+Many people, myself included, use Magit[2] to interact with git through
+emacs. It will simplify your life. There is a package in MELPA if you
+are interested.
+
+Sam Gwydir.
+
+Footnotes:
+
+[1] https://git.wiki.kernel.org/index.php/GitSvnCrashCourse
+[2] https://github.com/magit/magit
+
+-- 
+Sam Gwydir
+Texas A&M University
++1 713 446 0367
+sam@samgwydir.com

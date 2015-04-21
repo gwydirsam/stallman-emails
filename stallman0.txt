@@ -1,0 +1,39 @@
+[[[ To any NSA and FBI agents reading my email: please consider    ]]]
+[[[ whether defending the US Constitution against all enemies,     ]]]
+[[[ foreign or domestic, requires you to follow Snowden's example. ]]]
+
+I committed some changes using C-x v v in vc-dir.
+Something went wrong with lisp/ChangeLog.
+
+It appears that my change log entries went into an old version of that
+file; I don't know why this happened, since I wrote them today after
+doing 'git pull'.
+
+After this, I did 'git pull' again, and it said there was a merge
+conflict in lisp/ChangeLpg.  A lot of text appears to be missing from
+the file.  It said, "fix conflicts and then commit the result."
+
+I edited lisp/ChangeLog and tried to commit it with C-x v v.
+That gave me the error message
+
+  fatal: cannot do a partial commit during a merge.
+
+I am now stuck.  I don't know what a "merge" is; it is certainly
+nothing I asked to do.
+
+How can I get this unwedged?
+
+Is my change to the default value of browse-url-firefox-program
+visible in browse-url.el?  It should try icecat first.
+
+My previous use of git is limited to getting the Emacs sources
+to build them.
+
+-- 
+Dr Richard Stallman
+President, Free Software Foundation
+51 Franklin St
+Boston MA 02110
+USA
+www.fsf.org  www.gnu.org
+Skype: No way! See stallman.org/skype.html.
